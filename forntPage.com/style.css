@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_top{
+    background-color: #d25763;
+    height: 2rem;
+    
+}
+.header_top > ul {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.header_top > ul > li{
+    list-style: none;
+    gap: 3rem;
+    color: white;
+    font-size: 12px;
+    float: right;
+    margin-left: 0.2rem;
+    cursor: pointer;
+}
+.header_top > ul > button{
+    background-color: #d25763;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: whitesmoke;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 0.2rem;
+}
+.header{
+    background-color: #c3404e;
+    height: 5rem;
+    width: auto;
+    position: sticky;
+    margin-top: rem;
+}
+.header > .header_bottom{
+    align-items: center;
+    justify-content: center;
+}
+.header > .header_bottom > a{
+    height: 1rem;
+}
+.header > .header_bottom > .header_search{
+    margin-top: 1.7rem;
+}
+.header_bottom > .header_search > input{
+    width: 20rem;
+} 
+.header_bottom > .header_search > input[type=text]{
+    padding: 0.2rem;
+    border: none;
+    font-size: 1rem;
+}
+.header_bottom > .header_search > button{
+    float: right;
+    border: none;
+    width: 1.5rem;
+    background-color: #36b649;
+    outline: none;
+    height: 1.9rem;
+
+}
+.header_icon{
+    color: white;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.header_icon > i{
+    margin-left: 1rem;
+}
+/* header  end  */
+/*  item list  */
+.nav_down > ul{
+    display: flex;
+    position: sticky;
+    flex-direction: row;
+    border-bottom: 1px solid #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: 1.9rem;
+    width: auto;
+    list-style-type:none;
+}
+
+.nav_down > ul > li{
+    margin-right: 2rem;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0.4rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+/* carousel */
+.carousel_section{
+    margin-top: -0.6rem;
+}
+.carousel-item > .rounded{
+    width: 82rem;
+    margin-left: 2rem;
+    height: 20rem;
+    cursor: pointer;
+}
+/* box product */
+.card-group{
+    margin: 4rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.card-group > .card{
+    height: 10rem;
+}
+
+
